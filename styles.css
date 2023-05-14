@@ -6,10 +6,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .hero {
+    flex: 5;
     background: #29374b;
+    width: 100%;
 }
 
 .header,.main{
@@ -18,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .header > a > h1 {
@@ -31,6 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -88,4 +92,128 @@ ul {
 .main-2 > img {
     width: 100%;
     height: 90%;
+    min-width: 200px;
+}
+
+.information {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #f5f3f3;
+}
+
+.information-text > p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image > img {
+    width: 100px;
+    height: 100px;
+    border: solid blue 5px;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    width: 120px;
+}
+
+.quote {
+    flex: 3;
+    width: 100%;
+    background: #E5E7EB;
+}
+
+.quote-text {
+    padding: 80px;
+}
+
+#quote-1 {
+    font-size: 26px;
+    font-style: italic;
+    color : #1F2937;
+    margin-bottom: 0px;
+}
+
+#quote-author {
+    margin-top: 0;
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sign {
+    flex: 2;
+    background: #f5f3f3;
+    width: 100%;
+}
+
+.sign-up {
+    background: #3882F6;
+    margin: 70px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    min-width: 50px;
+}
+
+.call > p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+}
+
+#call-to-action {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#call-to-action-two {
+    font-size: 14px;
+}
+
+.sign-up > button {
+    width: 120px;
+    height: 45px;
+    align-self: center;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer {
+    flex: 1;
+    width: 100%;
+    background: #29374b;
+}
+
+.footer > p {
+    text-align: center;
+    color: #E5E7EB;
 }
