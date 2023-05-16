@@ -40,6 +40,52 @@ body {
     font-size: 1.5em;
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3em 0 0 1em;
+    gap: 1em;
+}
+
+.social > a {
+    padding: 5px;
+    border: solid 0.1em transparent;
+    text-decoration: none;
+}
+
+.social > a:hover {
+    border: solid 0.1em #ff0000;
+    border-radius: 0.1em;
+    background: #2baf2b;
+    transition: 0.1s;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin-right: 0.5vw;
+}
+
+.links > li {
+    list-style-type: none;
+    padding: 0.4em;
+}
+
+.links > li > a {
+    text-decoration: none;
+    color : #ad35a3;
+    font-size: 1.1em;
+}
+
+.links > li:hover {
+    border-radius: 0.2em;
+    background: #2baf2b;
+    transition: 0.2s;
+}
+
 .hero {
     flex: 5;
     background: #29374b;
@@ -55,25 +101,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-
-.links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.links > li,a {
-    text-decoration: none;
-    color : #E5E7EB;
-    font-size: 18px;
-}
 
 .main {
     gap: 28px;
