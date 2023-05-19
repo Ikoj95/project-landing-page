@@ -61,6 +61,10 @@ body {
     transition: 0.1s;
 }
 
+.social > a > img {
+    width: 1.2em;
+}
+
 .links {
     display: flex;
     justify-content: center;
@@ -76,7 +80,7 @@ body {
 
 .links > li > a {
     text-decoration: none;
-    color : #ad35a3;
+    color : #000000;
     font-size: 1.1em;
 }
 
@@ -85,6 +89,15 @@ body {
     background: #2baf2b;
     transition: 0.2s;
 }
+
+/*.header-right > select {
+    display: none;
+}
+
+@media (max-width:1060px) {
+    .header-right ul {display: none;}
+    .header-right select {display: inline-block;}
+}*/
 
 .hero {
     flex: 5;
