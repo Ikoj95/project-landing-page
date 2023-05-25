@@ -26,7 +26,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
-    margin-left: 0.5vw;
+    margin-left: 0.2em;
+    align-self: stretch;
 }
 
 .header-left > a > img {
@@ -37,7 +38,7 @@ body {
     color: #2baf2b;
     font-family: customFont;
     letter-spacing: 0.1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .social {
@@ -62,7 +63,7 @@ body {
 }
 
 .social > a > img {
-    width: 1.2em;
+    width: 1.04em;
 }
 
 .links {
@@ -70,7 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1.5em;
-    margin-right: 0.5vw;
+    margin-right: 0.5em;
 }
 
 .links > li {
@@ -115,7 +116,7 @@ body {
         right: 0;
         top: 4.1em;
         margin: 0;
-        padding: 0 2em 0.5em 0.3em;
+        padding: 0 2em 0.5em 1.17em;
         align-items: flex-start;
         transform: translateY(-100%);
         z-index: -1;
@@ -124,6 +125,18 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0.8em 0.8em 0em 0em;
+    }
+}
+
+@media (max-width:630px){
+    .social {
+        all: unset;
+        width: 15%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-left {
+        justify-content: flex-start;
     }
 }
 
