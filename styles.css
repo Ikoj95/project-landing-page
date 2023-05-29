@@ -151,9 +151,11 @@ input:checked ~ .links {
 }
 
 .main {
+    width: 80%;
     display: flex;
     flex-direction: row;
-    padding: 6em 13em;
+    margin: 4em auto;
+    padding: 1em;
     gap: 1em;
 }
 
@@ -184,12 +186,12 @@ input:checked ~ .links {
 
 .main-2 > img {
     width: 100%;
-    /*min-width: 450px;*/
     height: auto;
 }
 
 
 .main-1 > button {
+    align-self: center;
     border-radius: 6px;
     padding: 6px 26px;
     background: #3882F6;
@@ -204,27 +206,25 @@ input:checked ~ .links {
 .main-1 > button:hover {
     color: #2baf2b;
 }
-/* reworking padding to margin on hero div instead of main and having flex-direction 
-instead of flex-basis!*/
+
 @media (max-width:1600px){
-    .main-1 {
-        /*flex-basis: 100%;*/
+    .main-1 > h1 {
+        align-self: center;
+    }
+    .main-1 > p {
+        align-self: center;
+    }
+    .main-2 {
+        margin: auto;
     }
     .main-2 > img {
-        /*max-width: 60%;*/
-        
+        width: 40vw;  
     }
     .main{
-        /*flex-wrap: wrap;*/
         flex-direction: column;
     }
 }
-/*@media (max-width: 990px){
-    .main {
-        padding: 5%;
-    }
-}
-    */
+
 
 
 .information {
