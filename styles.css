@@ -102,7 +102,7 @@ body {
 .bar {
     width: 3em;
     height: 0.3em;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.9em;
     background: #ffffff;
 }
 
@@ -219,6 +219,7 @@ input:checked ~ .links {
     }
     .main-2 > img {
         width: 40vw;  
+        min-width: 350px;
     }
     .main{
         flex-direction: column;
