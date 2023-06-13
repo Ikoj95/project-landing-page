@@ -200,7 +200,7 @@ input:checked ~ .links {
     text-align: center;
     color: #E5E7EB;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .main-1 > button:hover {
@@ -227,21 +227,21 @@ input:checked ~ .links {
 }
 
 
-
 .information {
-    flex: 4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     background: #f5f3f3;
+    padding: 4em 0em;
 }
 
 .information-text > p {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     color: #1F2937;
+    text-align: center;
+    margin: 0 1em 1em 1em;
 }
 
 .images {
@@ -249,6 +249,7 @@ input:checked ~ .links {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .image {
@@ -260,15 +261,18 @@ input:checked ~ .links {
 }
 
 .image > img {
-    width: 100px;
-    height: 100px;
-    border: solid blue 5px;
-    border-radius: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .text {
     text-align: center;
-    width: 120px;
+    width: 140px;
+}
+
+.text > p {
+    white-space: pre-line;
+    font-size: 1rem;
 }
 
 .quote {
