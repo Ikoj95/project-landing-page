@@ -310,21 +310,20 @@ input:checked ~ .links {
 }
 
 .sign {
-    flex: 2;
     background: #f5f3f3;
-    width: 100%;
 }
 
 .sign-up {
     background: #3882F6;
-    margin: 70px 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 5px;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    min-width: 50px;
+    width: 40vw;
+    min-width: 300px;
+    margin: 2em auto;
+    padding: 1.5em 3em;
+    border-radius: 1em;
+    gap: 1em;
 }
 
 .call > p {
