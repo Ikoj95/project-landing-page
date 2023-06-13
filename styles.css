@@ -276,17 +276,26 @@ input:checked ~ .links {
 }
 
 .quote {
-    flex: 3;
-    width: 100%;
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
-    padding: 80px;
+    width: 40vw;
+    min-width: 300px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
 #quote-1 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: italic;
     color : #1F2937;
     margin-bottom: 0px;
@@ -294,9 +303,10 @@ input:checked ~ .links {
 
 #quote-author {
     margin-top: 0;
-    text-align: end;
+    align-self: flex-end;
+    font-family: customFont;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .sign {
